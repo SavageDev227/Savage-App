@@ -44,23 +44,23 @@ const TabsLayout = () => {
         
         />
         <Tabs.Screen 
-        name="profile"
-        options={{
-            title: 'Profile',
-            headerShown: false,
-            tabBarIcon: ({ color, focused }) => (
-                <Ionicons name={focused ? "person" : "person-outline"} size={28} color={focused ? "red" : "white"} />
-            )
-        }}
-        
-        />
-        <Tabs.Screen 
         name="bookmark"
         options={{
             title: 'Bookmark',
             headerShown: false,
             tabBarIcon: ({ color, focused }) => (
                 <Ionicons name={focused ? "bookmark" : "bookmark-outline"} size={28} color={focused ? "red" : "white"} />
+            )
+        }}
+        
+        />
+        <Tabs.Screen 
+        name="profile"
+        options={{
+            title: 'Profile',
+            headerShown: false,
+            tabBarIcon: ({ color, focused }) => (
+                <Ionicons name={focused ? "person" : "person-outline"} size={28} color={focused ? "red" : "white"} />
             )
         }}
         

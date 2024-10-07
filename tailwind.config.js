@@ -3,13 +3,17 @@
 module.exports = {
   content: [
     "./app/**/*.{js,jsx,ts,tsx}",
-    "./<custom directory>/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         'primary': '#131316',
-        'tabs': '#1C1C21'
+        'tabs': '#1C1C21',
+        'secondary': '#8a0a0a'
+      },
+      fontFamily: {
+        'inter': ["Inter", "sans-serif"]
       }
     },
   },
