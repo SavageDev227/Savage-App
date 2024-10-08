@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         'primary': '#131316',
         'tabs': '#1C1C21',
-        'secondary': '#8a0a0a'
+        'secondary': '#8a0a0a',
+        'primary2': '26262C'
       },
       fontFamily: {
         'inter': ["Inter", "sans-serif"]
